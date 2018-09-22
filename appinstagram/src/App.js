@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import SearchForm from './SearchForm';
+import MovieList from './MovieList';
 
 class App extends Component {
   constructor(){
@@ -17,7 +18,7 @@ class App extends Component {
           </div>   
         </div>    
         <div className="main-content">
-       
+          <MovieList />
         </div>
       </div>
     );

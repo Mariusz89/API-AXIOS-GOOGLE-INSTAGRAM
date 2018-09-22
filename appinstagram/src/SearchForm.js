@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class SearchFrom extends Component {
+class SearchForm extends Component {
 	render(){
 		return(
 			<form className="search-form">

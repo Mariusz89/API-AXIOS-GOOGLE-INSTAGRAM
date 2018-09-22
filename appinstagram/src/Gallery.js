@@ -1,5 +1,4 @@
 import React from 'react';
-import Picture from './Gif';
 
 const Gallery = props => { 
   
@@ -10,4 +9,4 @@ const Gallery = props => {
   );
 }
 
-export default GifList;
+export default Gallery;

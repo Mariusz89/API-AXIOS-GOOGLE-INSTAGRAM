@@ -15,13 +15,9 @@ body {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 ul,
 li {
-  margin: 0;
+  margin: 40px auto;
   padding: 0;
   list-style: none;
 }
@@ -92,7 +88,14 @@ button {
 }
 
 .movie-wrap iframe {
-  min-width: 100%;
+  min-width: 50%;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* ================================= 

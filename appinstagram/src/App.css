@@ -71,20 +71,10 @@ button {
   padding-right: 35px;
 }
 
-.search-button {
-  float: right;
-  margin-right: -10px;
-}
-
-.icn-search {
+.fa {
   font-weight: 700;
-}
-
-.icon-gif {
-  font-size: 6em;
-  margin-bottom: 0;
   color: #7bcbc4;
-  display: block;
+  font-size: 1.7em !important;
 }
 
 .no-gifs  {
@@ -95,18 +85,13 @@ button {
   font-size: 1.25em;
 }
 
-.movie-list a {
-  display: block;
-  margin: auto;
-}
-
 .movie-wrap {
   background-color: #fff;
   margin-bottom: .8em;
   position: relative;
 }
 
-.movie-wrap img {
+.movie-wrap iframe {
   min-width: 100%;
 }
 
@@ -166,7 +151,7 @@ button {
     width: 50%;
     margin: 0;
   }
-  .movie-wrap img {
+  .movie-wrap iframe {
     height: 235px;
   }
   .movie-list .no-gifs {

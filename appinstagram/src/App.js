@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
+import 'font-awesome/css/font-awesome.min.css';
 import SearchForm from './SearchForm';
 import MovieList from './MovieList';
 

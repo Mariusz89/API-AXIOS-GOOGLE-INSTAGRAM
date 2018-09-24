@@ -2,6 +2,18 @@ import React, { Component } from 'react';
 
 class SearchForm extends Component {
 
+	state = {
+		searchText: ''
+	}
+
+	changeForm = e =>
+		this.setState({searchText: e.target.value})
+
+	handleSubmit = e => {
+		e.preventDefault();
+		this.props.onSearch(this.state.searchText)
+	}
+
 	render(){
 		return(
 			<form className="search-form" onSubmit = {this.handleSubmit}>

@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Movie = () => (
+const Movie = props => (
+
 	<li className="movie-wrap">
-    	<img alt=""/>
+    	
   	</li>
 );
 
 export default Movie;
 	
+
+	
+
+

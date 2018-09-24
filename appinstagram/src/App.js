@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   performSearch = (query) =>
-    axios.get(`https://www.googleapis.com/youtube/v3/search?q=${query}&part=snippet&key=AIzaSyB31J3a8zvdu9rZRSU6FjjE6GrEfdiX3J8&maxResults=5&type=video`) 
+    axios.get(`https://www.googleapis.com/youtube/v3/search?q=${query}&part=snippet&key=AIzaSyB31J3a8zvdu9rZRSU6FjjE6GrEfdiX3J8&maxResults=6&type=video`) 
       .then(response => {
         this.setState({
           movies: response.data.items

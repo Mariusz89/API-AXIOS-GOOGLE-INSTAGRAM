@@ -56,7 +56,6 @@ button {
 .main-title {
   font-size: 1.4em;
   line-height: 80px;
-  text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
 }
@@ -71,6 +70,11 @@ button {
   font-weight: 700;
   color: #7bcbc4;
   font-size: 1.7em !important;
+}
+
+.fa-youtube {
+  margin-right: 10px;
+  color: red;
 }
 
 .no-gifs  {

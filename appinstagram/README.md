@@ -1,4 +1,4 @@
-<h1>Demo: http://xn--mariuszkosir-bib.pl/projekt21/ </h1>
+<a href='http://xn--mariuszkosir-bib.pl/projekt21/' target="_blank">Demo: <h1>http://xn--mariuszkosir-bib.pl/projekt21/</h1> </a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

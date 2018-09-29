@@ -5,12 +5,14 @@ import 'font-awesome/css/font-awesome.min.css';
 import SearchForm from './SearchForm';
 import MovieList from './MovieList';
 
+const Loader = require('react-loader');
 
 class App extends Component {
   constructor(){
     super();
     this.state = {
-      movies: []
+      movies: [],
+      loading: true
     };
   }
 
@@ -22,7 +24,8 @@ class App extends Component {
     axios.get(`https://www.googleapis.com/youtube/v3/search?q=${query}&part=snippet&key=AIzaSyB31J3a8zvdu9rZRSU6FjjE6GrEfdiX3J8&maxResults=6&type=video`) 
       .then(response => {
         this.setState({
-          movies: response.data.items
+          movies: response.data.items,
+          loading: false
         });
       })
       .catch(error => {
@@ -40,7 +43,9 @@ class App extends Component {
           </div>   
         </div>    
         <div className="main-content">
-          <MovieList data={this.state.movies} />
+          {
+            this.state.loading ? <Loader/> : <MovieList data={this.state.movies} />
+          }
         </div>
       </div>
     );

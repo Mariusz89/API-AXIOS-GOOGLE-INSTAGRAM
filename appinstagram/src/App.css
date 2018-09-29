@@ -77,7 +77,7 @@ button {
   color: red;
 }
 
-.no-gifs  {
+.no-movies {
   color: #7bcbc4;
   height: 140px;
   padding-top: 62px;
@@ -111,6 +111,7 @@ button {
   width: 90%;
   max-width: 1025px;
   margin: auto;
+  text-align: center;
 }
 
 .main-header {
@@ -161,7 +162,7 @@ button {
   .movie-wrap iframe {
     height: 235px;
   }
-  .movie-list .no-gifs {
+  .movie-list .no-movies {
     float: none;
     width: 100%;
   }
